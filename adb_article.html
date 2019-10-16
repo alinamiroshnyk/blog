@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>ADB</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
+    <link rel="stylesheet" href="css/style_article.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <header class="main-nav">
+            <div class="logo">
+                <a href="mainpage.html">
+                    <img src="images/logo.png" />
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li class="nav-item">
+                        <a href="all_articles.html">All articles</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="aboutme.html">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contacts.html">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+
+            <section class="content-section">
+                <div class="section-title">
+                    <h2>ADB and it's use</h2>
+                </div>
+
+                <div class="section-body">
+                    <p>Android Debug Bridge (adb) is a versatile command-line tool that lets you communicate with a
+                        device. The adb command facilitates a variety of device actions, such as installing and
+                        debugging apps, and it provides access to a Unix shell that you can use to run a variety of
+                        commands on a device.</p>
+
+                    <p>The following example shows the devices command and its output. There are three devices running.
+                        The first two lines in the list are emulators, and the third line is a hardware device that is
+                        attached to the computer.</p>
+
+                    <p>The adb devices command has a corner-case command sequence that causes running emulator(s) to not
+                        show up in the adb devices output even though the emulator(s) are visible on your desktop. This
+                        happens when all of the following conditions are true:
+
+                        The adb server is not running, and
+                        You use the emulator command with the -port or -ports option with an odd-numbered port value
+                        between 5554 and 5584, and
+                        The odd-numbered port you chose is not busy so the port connection can be made at the specified
+                        port number, or if it is busy, the emulator switches to another port that meets the requirements
+                        in 2, and
+                        You start the adb server after you start the emulator.
+                        One way to avoid this situation is to let the emulator choose its own ports, and don't run more
+                        than 16 emulators at once. Another way is to always start the adb server before you use the
+                        emulator command, as explained in the following examples.</p>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="footer">
+            © 2019 Alina Miroshnyk
+        </footer>
+    </div>
+</body>
+
+</html>
