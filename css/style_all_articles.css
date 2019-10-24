@@ -8,8 +8,8 @@ body {
 .container {
     padding-top: 70px;
     position: relative;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: darkgray;
+    font-family: 'Helvetica Neue', sans-serif; 
+    background-color: #e6b910;
 }
 
 .main-nav {
@@ -24,7 +24,6 @@ body {
 /* ---LOGO--- */
 .main-nav .logo {
     flex: 0 0 auto;
-    /* этот блок не растет не уменьш. остается в этом размере*/
 }
 
 .main-nav .logo img {
@@ -59,29 +58,35 @@ body {
 
 /* work with sections*/
 main .content-section {
-    padding: 16px;
-    font-family: 'Courier New', Courier, monospace;
     padding: 50px;
 }
-
 
 .section-title {
     widows: 100%;
     text-align: center;
     width: 100%;
     padding: 30px;
-    font-family: 'Courier New', Courier, monospace;
 }
 
+.h1 {
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+}
 
 /* Gallery with posts */
 div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
     float: center;
-    width: 180px;
-    background-color: aliceblue;
-    font-family: 'Courier New', Courier, monospace;
+    width: 300px;
+    background-color: whitesmoke;
 }
 
 div.gallery:hover {
@@ -103,7 +108,7 @@ div.desc {
     widows: 100%;
     text-align: center;
     padding: 16px;
-    background: #ddd;
+    background: white;
 }
 
 /* Responsive layout */
