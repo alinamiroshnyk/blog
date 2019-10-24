@@ -8,7 +8,7 @@ body {
 .container {
     padding-top: 70px;
     position: relative;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Helvetica Neue', sans-serif; 
 }
 
 .main-nav {
@@ -23,7 +23,6 @@ body {
 /* ---LOGO--- */
 .main-nav .logo {
     flex: 0 0 auto;
-    /* этот блок не растет не уменьш. остается в этом размере*/
 }
 
 .main-nav .logo img {
@@ -75,13 +74,27 @@ main .hero-section {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #e6b910;
+    
+}
+
+.h1 {
+    font-size: 100px; 
+    font-weight: bold; 
+    letter-spacing: -1px; 
+    line-height: 0;
+}
+
+.h3 {
+    font-size: 30px; 
+    letter-spacing: 1px;
+    font-weight: 250;
 }
 
 /* work with sections*/
 main .content-section {
     padding: 16px;
-    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 1px;
     padding: 50px;
 }
 
@@ -98,8 +111,9 @@ main .content-section {
 /* My photo  */
 .myimg {
     width: 200px;
-    height: 200px;
+    height: 190px;
     grid-area: picture;
+    border-radius: 100px;
 
 }
 
@@ -108,11 +122,15 @@ main .content-section {
     text-align: center;
     width: 100%;
     padding: 30px;
-    font-family: 'Courier New', Courier, monospace;
+}
+
+#quote-section { 
+    background-image: url(../images/quote.jpg);
+    background-size: cover;
 }
 
 .quote {
-    font-family: 'Comic Sans MS';
+    font-family: 'Courier New', Courier, monospace;;
     text-align: center;
     width: 100%;
     padding: 30px;
@@ -120,14 +138,21 @@ main .content-section {
 
 }
 
+.content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: flex-start;
+}
+
 /* Gallery with posts */
 div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
     float: center;
-    width: 180px;
-    background-color: aliceblue;
-    font-family: 'Courier New', Courier, monospace;
+    width: 300px;
+    background-color: whitesmoke;
+
 }
 
 div.gallery:hover {
@@ -148,8 +173,8 @@ div.desc {
 .footer {
     widows: 100%;
     text-align: center;
-    padding: 16px;
-    background: #ddd;
+    padding: 16px; 
+    background: white;
 }
 
 /* Responsive layout */
