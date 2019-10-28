@@ -125,6 +125,14 @@ code {
     -webkit-text-size-adjust: none;
 }
 
+.image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
 /* work with sections*/
 main .content-section {
     padding: 50px;
