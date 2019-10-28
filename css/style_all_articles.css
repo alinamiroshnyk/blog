@@ -21,7 +21,7 @@ body {
     z-index: 1;
 }
 
-/* ---LOGO--- */
+/* HEADER */
 .main-nav .logo {
     flex: 0 0 auto;
 }
@@ -57,7 +57,7 @@ body {
     color: black;
 }
 
-/* work with sections*/
+/* MAIN SECTION */
 main .content-section {
     padding: 50px;
     height: calc(100vh - 80px);
@@ -82,7 +82,7 @@ main .content-section {
     align-content: flex-start;
 }
 
-/* Gallery with posts */
+/* POSTS GALLERY */
 div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
@@ -105,7 +105,7 @@ div.desc {
     text-align: center;
 }
 
-/* Footer */
+/* FOOTER */
 .footer {
     widows: 100%;
     text-align: center;
@@ -113,7 +113,7 @@ div.desc {
     background: white;
 }
 
-/* Responsive layout */
+/* RESPONSIVE LAYOUT */
 @media screen and (max-width: 800px) {
 
     .leftcolumn,

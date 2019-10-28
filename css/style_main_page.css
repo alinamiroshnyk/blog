@@ -20,7 +20,7 @@ body {
     z-index: 1;
 }
 
-/* ---LOGO--- */
+/* HEADER */
 .main-nav .logo {
     flex: 0 0 auto;
 }
@@ -56,7 +56,7 @@ body {
     color: black;
 }
 
-/* Picture hero image*/
+/*  HERO IMAGE SECTION */
 main .hero-section {
     position: relative;
 }
@@ -92,7 +92,6 @@ main .hero-section {
     font-weight: 250;
 }
 
-/* work with sections*/
 main .content-section {
     padding: 16px;
     letter-spacing: 1px;
@@ -109,7 +108,6 @@ main .content-section {
         "picture";
 }
 
-/* My photo  */
 .myimg {
     width: 200px;
     height: 190px;
@@ -135,8 +133,6 @@ main .content-section {
     text-align: center;
     width: 100%;
     padding: 30px;
-   
-
 }
 
 .content {
@@ -146,7 +142,7 @@ main .content-section {
     align-content: flex-start;
 }
 
-/* Gallery with posts */
+/* POSTS GALLERY */
 div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
@@ -170,7 +166,7 @@ div.desc {
     text-align: center;
 }
 
-/* Footer */
+/* FOOTER */
 .footer {
     widows: 100%;
     text-align: center;
@@ -178,7 +174,7 @@ div.desc {
     background: white;
 }
 
-/* Responsive layout */
+/* RESPONSIVE LAYOUT */
 @media screen and (max-width: 800px) {
 
     .leftcolumn,
