@@ -96,4 +96,12 @@ main .content-section {
         width: 100%;
         padding: 0;
     }
+
+    #contact-header {
+        font-size: 50px;
+    }
+
+    #body-text {
+        font-size: 20px;
+    }
 }

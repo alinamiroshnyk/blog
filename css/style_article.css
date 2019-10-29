@@ -91,6 +91,12 @@ h2 { color: #111;
     margin-bottom: 30px;
 }
 
+
+.section-body {
+    width: 50%;
+    margin: auto;
+}
+
 p { 
     color: #685206; 
     font-size: 14px; 
@@ -98,8 +104,8 @@ p {
     margin: 0 0 24px; 
     text-align: justify; 
     text-justify: inter-word; 
-    margin-left: 300px;
-    margin-right: 300px;
+    /* margin-left: 300px;
+    margin-right: 300px; */
 }
 
 pre {
@@ -154,5 +160,9 @@ main .content-section {
     .rightcolumn {
         width: 100%;
         padding: 0;
+    }
+
+    #article-header {
+        font-size: 50px;
     }
 }
